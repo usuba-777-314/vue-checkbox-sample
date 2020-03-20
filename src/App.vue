@@ -6,18 +6,24 @@
       <CheckboxSingle />
       <CheckboxMultiple />
     </div>
+
+    <div class="content">
+      <TextInput />
+    </div>
   </div>
 </template>
 
 <script>
 import CheckboxSingle from './components/CheckboxSingle.vue'
 import CheckboxMultiple from './components/CheckboxMultiple.vue'
+import TextInput from './components/TextInput.vue'
 
 export default {
   name: 'App',
   components: {
     CheckboxSingle,
-    CheckboxMultiple
+    CheckboxMultiple,
+    TextInput
   }
 }
 </script>
